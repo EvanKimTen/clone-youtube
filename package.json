@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/userNeal/wetube-reloaded.git"
+    "url": "git+https://github.com/EvanKimTen/clone-youtube"
   },
   "scripts": {
     "dev:server": "nodemon",
@@ -14,9 +14,9 @@
   "author": "Evan<dk1060@scarletmail.rutgers.edu>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/userNeal/wetube-reloaded/issues"
+    "url": "https://github.com/EvanKimTen/clone-youtube/issues"
   },
-  "homepage": "https://github.com/userNeal/wetube-reloaded#readme",
+  "homepage": "https://github.com/EvanKimTen/clone-youtube#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-mongo": "^4.6.0",
