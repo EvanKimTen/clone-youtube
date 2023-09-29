@@ -1,0 +1,12 @@
+extends base
+include mixins/video
+
+block content
+    form(method="GET") 
+        input(placeholder="Search by Title", type="text", name="keyword")
+        input(value="Search now", type="submit")
+    div
+        each video in videos
+            +video(video)
+//- what if like method is post?
+//- what was mixins again?

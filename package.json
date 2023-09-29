@@ -1,0 +1,46 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userNeal/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev:server": "nodemon",
+    "dev:assets": "webpack"
+  },
+  "author": "Evan<dk1060@scarletmail.rutgers.edu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/userNeal/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/userNeal/wetube-reloaded#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mini-css-extract-plugin": "^2.6.1",
+    "mongoose": "^6.4.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^2.6.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "nodemon": "^2.0.16",
+    "sass": "^1.54.2",
+    "sass-loader": "^13.0.2",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
