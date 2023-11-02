@@ -2,8 +2,9 @@ import mongoose from "mongoose";
 // connect between db and mongoose so that it recognizes
 // data model.
 const videoSchema = new mongoose.Schema({
-    title: {type:String, required:true},
-    description: {type:String, required:true},
+    title: { type: String, required: true },
+    fileUrl: {type: String, required: true},
+    description: { type: String, required: true },
     createdAt: { type: Date, required: true, default: Date.now },
     // default: 기본적으로 설정된 value
     hashtags: [{type: String}],
